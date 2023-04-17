@@ -1,0 +1,15 @@
+div{
+    background-color: yellow;
+    column-count: 3;
+    column-gap: 50px;
+    background: rgba(73,155,234,1);
+    background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 50%, rgba(36,127,230,1) 67%, rgba(32,124,229,1) 69%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(50%, rgba(73,155,234,1)), color-stop(67%, rgba(36,127,230,1)), color-stop(69%, rgba(32,124,229,1)));
+    background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 50%, rgba(36,127,230,1) 67%, rgba(32,124,229,1) 69%);
+    background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 50%, rgba(36,127,230,1) 67%, rgba(32,124,229,1) 69%);
+    background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 50%, rgba(36,127,230,1) 67%, rgba(32,124,229,1) 69%);
+}
+
+p{
+    margin: 0px;
+}
