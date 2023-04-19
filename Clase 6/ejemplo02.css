@@ -1,0 +1,12 @@
+h1,h2{
+    color: red;
+    font-family: 'pacifico', cursive;
+}
+
+p{
+    color: blue;
+    font-family: 'Roboto' sans-serif;
+}
+.destacados{
+    color: red;
+}
