@@ -14,12 +14,15 @@
 @keyframes rectangulo{
     15%{
         transform: translate(-20px);
+        background-color: blue;
     }
     30%{
         transform: translate(-20px);
+        background-color: rgb(255, 0, 0);
     }
     40%{
         transform: translate(-20px) rotate(-90deg);
+        background-color: aqua;
     }
     65%{
         transform: translate(-20px);
@@ -31,6 +34,6 @@
 
 .caja:hover{
     animation: rectangulo 1s ease;
-    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
 
 }
